@@ -4,11 +4,12 @@ table {
     width: 100%;
 
 }
-
+p{
+    text-align: center;
+}
 td, th {
     text-align: center;
     border: 1px solid #ada4a4;
-    text-align: left;
     padding: 14px;
 }
 table th{
@@ -16,16 +17,13 @@ table th{
 }
 td:first-child{
     background-color: #EAEAEA;
+
 }
-table td:nth-child(2){
-    background-color: #EAEAEA;
-}
+
 tr:nth-child(even) {
     background-color: #EAEAEA;
 }
-td:nth-child(3) {
-    background-color: #EAEAEA;
-}
+
 table th:first-child{
     background-color: #fff;
 }
